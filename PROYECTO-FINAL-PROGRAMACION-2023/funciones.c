@@ -78,7 +78,7 @@ void modificarProducto(FILE *archivo) {
     while (fscanf(archivo, "%s %s %d %f", tempNombre, descripcion, &cantidad, &precio) == 4) {
         if (strcmp(tempNombre, nombre) == 0) {
             encontrado = 1;
-            strcpy(tempNombre, nuevoNombre); // Actualizar el nombre del videojuego
+            strcpy(tempNombre, nuevoNombre); 
             printf("Ingrese la nueva descripcion del videojuego: ");
             scanf("%s", descripcion);
             printf("Ingrese la nueva cantidad del videojuego: ");
