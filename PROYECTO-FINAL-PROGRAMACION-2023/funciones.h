@@ -8,4 +8,4 @@ void ingresarProducto(FILE *archivo);
 void modificarProducto(FILE *archivo);
 void eliminarProducto(FILE *archivo);
 
-#endif /* FUNCIONES_H */
+#endif 
